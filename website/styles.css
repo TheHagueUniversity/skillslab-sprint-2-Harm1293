@@ -1,0 +1,154 @@
+/*banner*/
+
+.banner {
+    width: 100%;
+    height: 450px;
+    padding-top:50px; 
+}
+
+
+/*site*/
+
+.site {
+    background-image: url(images/spacebackground.jpg);
+    background-attachment: fixed;
+}
+
+
+/*Body*/
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: whitesmoke;
+    border: 2px solid;
+}
+
+
+/* Remove margins and padding from the list, and add a black background color */
+
+#MainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-color: #000;
+    bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+}
+
+
+/* Float the list items side by side */
+
+#MainNav li {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* Style the links inside the list items */
+
+#MainNav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+   
+}
+
+#MainNav li a img{
+     width:50px; 
+    height:50px;
+    
+}
+
+/* Change background color of links on hover */
+
+#MainNav li a:hover {
+    background-color: #555;
+}
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+#MainNav li.icon {
+    display: none;
+}
+
+.main1 {
+    border: solid;
+    border-style: hidden;
+    border-color: grey;
+    margin: 1%;
+    align-content: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main2 {
+    border-style: solid;
+    border-width: medium;
+    margin: 3%;
+    padding: 10px 20px;
+    align-content: center;
+    text-align: left;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main3 {
+    border-style: solid;
+    border-width: medium;
+    margin: 1%;
+    align-content: center;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.show {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height:315px;
+}
+.show img {
+    width:100%; 
+
+}
+
+#video {
+    margin: 0 25%;
+}
+
+.footer {
+    /*border-bottom: 4px solid black;*/
+    border: solid;
+    background-color: #000;
+    margin-top: 10%;
+    color: white;
+}
+
+aside {
+    float: right;
+}
+
+.contact {
+    float: left;
+}

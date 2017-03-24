@@ -1,154 +1,167 @@
+
 /*banner*/
 
 .banner {
-    width: 100%;
-    height: 450px;
-    padding-top:50px; 
+	width: 100%;
+	height: 450px;
+	padding-top: 50px;
 }
 
 
 /*site*/
 
 .site {
-    background-image: url(images/spacebackground.jpg);
-    background-attachment: fixed;
+	background-image: url(images/spacebackground.jpg);
+	background-attachment: fixed;
 }
 
 
 /*Body*/
 
 body {
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: whitesmoke;
-    border: 2px solid;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: whitesmoke;
+	border: 2px solid;
 }
 
 
 /* Remove margins and padding from the list, and add a black background color */
 
 #MainNav {
-    list-style-type: none;
-    margin: 0;
-    padding: 15px;
-    background-color: #000;
-    bottom: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    width: 100%;
-    height: 60px;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	background-color: #000;
+	bottom: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100px;
 }
 
 
 /* Float the list items side by side */
 
 #MainNav li {
-    float: left;
-    margin-left: 10%;
-    margin-right: 10%;
+	float: left;
+	margin-left: 8%;
+	margin-right: 8%;
 }
 
 
 /* Style the links inside the list items */
 
 #MainNav li a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 5px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-   
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+ #MainNav li a img#logo{
+	width: 100px;
+	height: 80px;
 }
 
-#MainNav li a img{
-     width:50px; 
-    height:50px;
-    
+#MainNav li a img {
+	width: 70px;
+	height: 70px;
 }
+
 
 /* Change background color of links on hover */
 
 #MainNav li a:hover {
-    background-color: #555;
+	background-color:#17004B;
 }
 
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 
 #MainNav li.icon {
-    display: none;
+	display: none;
 }
 
 .main1 {
-    border: solid;
-    border-style: hidden;
-    border-color: grey;
-    margin: 1%;
-    align-content: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border: solid;
+	border-style: hidden;
+	border-color: grey;
+	margin: 1%;
+	align-content: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .main2 {
-    border-style: solid;
-    border-width: medium;
-    margin: 3%;
-    padding: 10px 20px;
-    align-content: center;
-    text-align: left;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-style: solid;
+	border-width: medium;
+	margin: 3%;
+	padding: 10px 20px;
+	align-content: center;
+	text-align: left;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .main3 {
-    border-style: solid;
-    border-width: medium;
-    margin: 1%;
-    align-content: center;
-    text-align: center;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border-style: solid;
+	border-width: medium;
+	margin: 1%;
+	align-content: center;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h1 {
-    text-align: center;
-    font-size: 2em;
+	text-align: center;
+	font-size: 2em;
 }
 
 h2 {
-    text-align: center;
-    font-size: 1.5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+figcaption {
+	text-align: center;
 }
 
 .show {
-    display: block;
-    margin: auto;
-    text-align: center;
-    width: 500px;
-    height:315px;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	width: 500px;
+	height: 315px;
+	padding: 20px;
 }
-.show img {
-    width:100%; 
 
+.show img {
+	width: 100%;
+}
+
+.twitter-tweet {
+	margin: auto;
 }
 
 #video {
-    margin: 0 25%;
+	margin: 30px 30%;
 }
 
 .footer {
-    /*border-bottom: 4px solid black;*/
-    border: solid;
-    background-color: #000;
-    margin-top: 10%;
-    color: white;
+	/*border-bottom: 4px solid black;*/
+	border: solid;
+	background-color: #000;
+	margin-top: 10%;
+	color: white;
 }
 
 aside {
-    float: right;
+	float: right;
 }
 
 .contact {
-    float: left;
+	float: left;
 }
